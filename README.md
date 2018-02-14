@@ -167,6 +167,7 @@ The management script release will follow within the next couple of days.
 
 | CRYPTO  | Logo | Url |
 |--------|--------------|-----|
+| BLTG | ![BLTG](/assent/bltg.jpg) | http://www.bitcoinlightning.co.uk/ |
 | PIVX |  ![PIVX](/assets/pivx.jpg)  |  https://pivx.org/ |
 | DASH |  ![DASH](/assets/dash.jpg)  | https://www.dash.org/ |
 | DESIRE |  ![DESIRE](/assets/desire.jpg)  | https://github.com/lazyboozer/Desire  |

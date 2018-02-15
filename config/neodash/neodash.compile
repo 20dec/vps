@@ -3,4 +3,4 @@ chmod u+x src/leveldb/build_detect_platform
 chmod u+x ./autogen.sh && ./autogen.sh
 ./configure --disable-dependency-tracking --enable-tests=no --without-gui --without-miniupnpc --with-incompatible-bdb CFLAGS="-march=native" LIBS="-lcurl -lssl -lcrypto -lz"
 make
-make install
+make install-exec-am

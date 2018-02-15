@@ -2,6 +2,6 @@
 # this file contains all commands to compile and install the daemon
 
 ./autogen.sh
-./configure ../dist/configure --enable-cxx --disable-shared --with-pic --prefix=$BDB_PREFIX
+./configure --disable-dependency-tracking --enable-tests=no --without-gui --without-miniupnpc --with-incompatible-bdb CFLAGS="-march=native" LIBS="-lcurl -lssl -lcrypto -lz"
 make
 make install

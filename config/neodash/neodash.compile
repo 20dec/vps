@@ -1,6 +1,6 @@
 #!/bin/bash
 
 ./autogen.sh
-./configure
+./configure --disable-wallet
 make
 sudo make install

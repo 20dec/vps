@@ -1,5 +1,5 @@
 chmod 777 autogen.sh
 ./autogen.sh
-./configure
+./configure --disable-wallet
 chmod 777 share/genbuild.sh
 make

@@ -1,0 +1,5 @@
+chmod 777 autogen.sh
+./autogen.sh
+./configure --disable-tests --disable-gui-tests
+chmod 777 share/genbuild.sh
+make && sudo make install
